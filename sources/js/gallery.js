@@ -95,12 +95,9 @@
                 this.shadow.appendChild(styleElem)
 
                 //Création d'un tableau contenant la source des images
-                
-
                 this.currentImg.src = this.imgs[0].src
                 this.imgs[0].selected = true
 
-                
                 //Génération des bullets points
                 this.refresh()
 
